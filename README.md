@@ -1,6 +1,6 @@
 ## Automated Stock Analysis with LLMs and AWS Bedrock Agents
 
-This project aims to develop an automated system for comprehensive stock analysis using balance sheet data, technical indicators, and news, powered by large language models (LLMs) like Claude 3 and leveraging the AWS Bedrock infrastructure.
+This project aims to develop an automated system for stock analysis using balance sheet data, technical indicators, and news, powered by large language models (LLMs) like Claude 3 and leveraging the AWS Bedrock infrastructure.
 
 > **Note:** The estimated cost per run is approximately $50.
 
@@ -10,13 +10,13 @@ This project aims to develop an automated system for comprehensive stock analysi
 - Weekly stock analysis on S&P 500, Nasdaq 100 and EURO STOXX 50, ranks each stock in its respective industry based on:
    - Balance sheet information
    - Technical indicators
-   - Relevant news
+   - Relevant news for each stock
 - LLMs ranks stocks within their respective industries and stores reasoning
 - BUY/SELL recommendations for each stock
 - Stores results in a database for further analysis and trend tracking.
 
 **Portfolio Manager Module**
-- Updates weekly portfolio with new stocks (BUY) or sells stocks (SELL) in the portfolio based on the stock analyst's recommendations and general market sentiment.
+- Weekly updates portfolio by buying (BUY) or selling stocks (SELL) based on the stock analyst's recommendations and general market sentiment.
 - Allows user prompts to influence the selection and weighting of stocks in the portfolio.
 
 ### Architecture Overview
