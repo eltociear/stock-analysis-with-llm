@@ -13,7 +13,7 @@ agent_resource_role_arn = '<AGENT_ROLE_ARN>'
 
 agent_client = boto3.client("bedrock-agent", region_name=REGION)
 
-agent_description = prompts['agent_web_search_instructions']['prompt']
+agent_description = prompts['agent_web_search_instructions']['description']
 instruction = prompts['agent_web_search_instructions']['prompt']
 
 # creation of a Bedrock agent via the Bedrock agent build api
