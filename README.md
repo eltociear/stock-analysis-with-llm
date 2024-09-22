@@ -40,7 +40,7 @@ The stock analysis application leverages various AWS services and external APIs.
    cd infrastructure
    cdk deploy
    ```
-2. Run the Python script `infrastructure/deploy_agents.py` to set up the Amazon Bedrock Agents, as this is currently not supported by AWS CDK. You need to add the IAM Role created by CDK to allow the agent to invoke bedrock model to the script.
+2. Run the Python script `infrastructure/deploy_agents.py` to set up the Amazon Bedrock Agents, as this is currently not supported by AWS CDK. You need to add the IAM Role created by CDK to allow the agent to invoke bedrock model to the script. If the script fails because of the alias creation, do step 3 below and then create the agent alias manually in the console.
 3. Configure the Action Groups and Agent settings in the Amazon Bedrock Agent console.
    - Click on `Agents`->`InternetSearchAgent`->`Edit in Agent Builder`->`Additional settings`-> Enable User Input
    - Click on `Add Action Group`
