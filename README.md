@@ -62,6 +62,7 @@ The stock analysis application leverages various AWS services and external APIs.
 
 4. Update the AgentId and Alias in `src/helper/helper.py` with the adentID and aliasID from the Bedrock Console and run `cdk deploy` again.
 5. You need to enable Anthropic Claude 3 model access in the AWS Bedrock Console.
+6. Test the agent in the Console by running the following user input `Amazon stock news`, and see if the result matches recent news.
 
 ### Results
 
