@@ -76,6 +76,11 @@ To improve the performance and behavior of the models, you can modify the prompt
 
 The project collects a comprehensive set of financial performance metrics, valuation and market position data, governance and risk factors, industry comparisons, and company information for each stock.
 
+### Improvements
+
+- Add web scraping agent
+- Self host model to reduce costs
+
 ### References
 
 - [Bedrock Agents Webscraper](https://github.com/build-on-aws/bedrock-agents-webscraper)
