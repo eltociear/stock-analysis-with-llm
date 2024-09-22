@@ -11,7 +11,7 @@ This project aims to develop an automated system for comprehensive stock analysi
    - Balance sheet information
    - Technical indicators
    - Relevant news
-- LLMs ranks stocks within their respective industries ans stores reasoning
+- LLMs ranks stocks within their respective industries and stores reasoning
 - BUY/SELL recommendations for each stock
 - Stores results in a database for further analysis and trend tracking.
 
