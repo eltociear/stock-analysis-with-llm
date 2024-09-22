@@ -58,7 +58,7 @@ The stock analysis application leverages various AWS services and external APIs.
       ```
    - Scroll down and select **Save & Exit**.
 
-4. Update the AgentId and Alias in `src/helper/advisor.py`.
+4. Update the AgentId and Alias in `src/helper/helper.py`.
 
 ### Results
 
