@@ -7,14 +7,16 @@ This project aims to develop an automated system for comprehensive stock analysi
 ### Key Features
 
 **Stock Analyst Module**
-- Conducts automated weekly stock analysis.
-- Integrates balance sheet information, technical indicators, and relevant news.
-- Utilizes LLMs to rank stocks within their respective industries.
-- Generates BUY/SELL recommendations for each stock based on the analysis.
-- Stores analytics results in a database for further analysis and trend tracking.
+- Weekly stock analysis on S&P 500, Nasdaq 100 and EURO STOXX 50, ranks each stock in its respective industry based on:
+   - Balance sheet information
+   - Technical indicators
+   - Relevant news
+- LLMs ranks stocks within their respective industries ans stores reasoning
+- BUY/SELL recommendations for each stock
+- Stores results in a database for further analysis and trend tracking.
 
 **Portfolio Manager Module**
-- Provides weekly portfolio updates with new stocks based on the stock analyst's recommendations and general market sentiment.
+- Updates weekly portfolio with new stocks (BUY) or sells stocks (SELL) in the portfolio based on the stock analyst's recommendations and general market sentiment.
 - Allows user prompts to influence the selection and weighting of stocks in the portfolio.
 
 ### Architecture Overview
