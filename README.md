@@ -15,7 +15,7 @@ This project aims to develop an automated system for stock analysis using balanc
 - BUY/SELL recommendations for each stock
 - Stores results in a database for further analysis and trend tracking.
 
-> **Note:** No real trades are executed, the real-time stock data comes from YAHOO API.
+> **Note:** No real trades are executed, stock data comes from YAHOO API.
 
 **Portfolio Manager Module**
 - Weekly updates portfolio by buying (BUY) or selling stocks (SELL) based on the stock analyst's recommendations and general market sentiment.
