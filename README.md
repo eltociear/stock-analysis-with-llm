@@ -1,4 +1,4 @@
-## Automated Stock Analysis with LLMs and AWS Bedrock Agents
+## Stock Analysis with LLMs and AWS Bedrock Agents
 
 This project aims to develop an automated system for stock analysis using balance sheet data, technical indicators, and news, powered by large language models (LLMs) like Claude 3 and leveraging the AWS Bedrock infrastructure.
 
