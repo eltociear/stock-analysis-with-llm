@@ -1,6 +1,6 @@
 ## Stock Analysis with LLMs and AWS Bedrock Agents
 
-This project aims to develop an automated system for stock analysis using balance sheet data, technical indicators, and news, powered by large language models (LLMs) like Claude 3 and leveraging the AWS Bedrock infrastructure.
+This project aims to develop an automated system for stock analysis and portfolio management, using different data sources such as balance sheet data, technical indicators, news, industry information, and general market sentiment. Powered by large language models (LLMs) like Claude 3 and leveraging the AWS Bedrock infrastructure.
 
 > **Note:** The estimated cost per run is approximately $50.
 
