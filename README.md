@@ -81,7 +81,7 @@ The project collects a comprehensive set of financial performance metrics, valua
 
 - Add web scraping agent
 - Self host model to reduce costs
-- Connect to a broker API for real traiding
+- Connect to a broker API for real trading
 
 ### References
 
